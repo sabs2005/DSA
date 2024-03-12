@@ -1,0 +1,14 @@
+Autocomplete with Tries
+
+Why did I use the data structure?
+Trie is the right option to use when storing a dynamic set of strings.
+
+Time complexity: O(nl)
+	suffixes():  O(nl) n=num of words, l=letters in each word 
+	insert(): O(n) n is characters in the inserted word
+	find(): O(n) n is all keys under root
+      
+Space complexity: O(nls)
+	suffixes(): O(nls) s = space taken by each letter of each word
+	insert(): O(n) n is characters in the inserted word
+	find(): O(1) no change to initial space used

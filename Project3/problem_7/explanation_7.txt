@@ -1,0 +1,14 @@
+Request Routing in a Web Server with a Trie
+
+Why did I use the data structure?
+Trie is useful when doing string matching. Especially when the string is dynamically created.
+
+Time complexity:O(n)
+		insert(): O(n) n is number of parts in a path
+		lookup(), find(): O(n) n is number of keys under root
+		split_path(): O(n) n is length of the path
+
+Space complexity: O(n)
+		insert(): O(n) n is number of parts in a path
+		lookup(), find(): finding does not need any storage space
+		split_path(): O(1) no extra space used.

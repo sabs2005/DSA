@@ -1,0 +1,7 @@
+Max and Min in a Unsorted Array
+
+Why did I use the data structure?
+Initialised max and min to aid in comparison with each item in the list. Used this method to get the O(n) timecomplexity.
+
+Time complexity: O(n) where n = number of times the for loop is executed = number of items in 			the list
+Space complexity: O(1) no change in initially occupied space of the list.

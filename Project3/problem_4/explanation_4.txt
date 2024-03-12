@@ -1,0 +1,7 @@
+Dutch National Flag Problem
+
+Why did I use the data structure?
+For a single traversal, use of pointers was the best option
+
+Time complexity: O(n) where n is the number of elements in the list.And its single traversal.
+Space complexity: O(1) since no extra space is used.

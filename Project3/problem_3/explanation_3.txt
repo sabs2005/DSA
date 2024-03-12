@@ -1,0 +1,12 @@
+Rearrange Array Elements
+
+Why did I use the data structure?
+The expected time complexity is O(nlog(n)). Merge sort has this timecomplexity.
+
+
+Time complexity:  O(nlog(n)) 
+	mergesort():  O(nlog(n)) n= number of comparisons per step.
+		    logn = the number steps
+Space complexity: O(n)
+	merge(): O(n) 
+	mergesort()using recursion: O(logn)
