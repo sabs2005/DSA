@@ -1,10 +1,12 @@
 **Data Structures and Algorithms**
 (Udacity nanodegree course)
 
+
 ****Project 1:****
 
   The tasks in this project test Python knowledge. 
   All task files have details of the tasks within the file itself.
+  
 
 ****Project 2:****
 
@@ -72,6 +74,7 @@
     Your task for this problem is to fill out the union and intersection functions. The union of two sets A and B is the set of elements which are in A, in B, or in both A and B. For example, the union of A = [1,     2] and B = [3, 4] is [1, 2, 3, 4].
     The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both sets A and B. For example, the intersection of A = [1, 2, 3] and B = [2, 3, 4] is [2, 3].
     You will take in two linked lists and return a linked list that is composed of either the union or intersection, respectively. Once you have completed the problem you will create your own test cases and           perform your own run time analysis on the code.
+    
 
 
 ****Project3:****
@@ -113,6 +116,7 @@
     •	A TrieNode class that exposes the general functionality of the Trie, like inserting a word or Finding Suffixes
     •	Now that we have a functioning Trie, we need to add the ability to list suffixes to implement our autocomplete feature. To do that, we need to implement a new function on the TrieNode object that will           return all complete word suffixes that exist below it in the trie. For example, if our Trie contains the words ["fun", "function", "factory"] and we ask for suffixes from the f node, we would expect to            receive ["un", "unction", "actory"] back from node.suffixes().
     •	finding the node which represents a prefix.
+    
 
 
 ****Project 4:****
