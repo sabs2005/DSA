@@ -12,7 +12,7 @@ All task files have details of the tasks within the file itself.
 Fle recursion
 For this problem, the goal is to write code for finding all files under a directory (and all directories beneath it) that end with ".c"
 
-**Problem2: **
+**Problem2:**
 Active directory:
 In Windows Active Directory, a group can consist of user(s) and group(s) themselves. We can construct this hierarchy as such. Where User is represented by str representing their ids.
 Write a function that provides an efficient look up of whether the user is in a group.
@@ -68,15 +68,16 @@ Your task for this problem is to fill out the union and intersection functions. 
 The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both sets A and B. For example, the intersection of A = [1, 2, 3] and B = [2, 3, 4] is [2, 3].
 You will take in two linked lists and return a linked list that is composed of either the union or intersection, respectively. Once you have completed the problem you will create your own test cases and perform your own run time analysis on the code.
 
+
 ****Project3:****
 
-Problem1:
+**Problem1:**
 Find the square root of the integer without using any Python library. You have to find the floor value of the square root.
 For example if the given number is 16, then the answer would be 4.
 If the given number is 27, the answer would be 5 because sqrt(5) = 5.196 whose floor value is 5.
 The expected time complexity is O(log(n))
 
-Problem2:
+**Problem2:**
 You are given a sorted array which is rotated at some random pivot point.
 Example: [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]
 You are given a target value to search. If found in the array return its index, otherwise return -1.
@@ -84,17 +85,17 @@ You can assume there are no duplicates in the array and your algorithm's runtime
 Example:
 Input: nums = [4,5,6,7,0,1,2], target = 0, Output: 4
 
-Problem3:
+**Problem3:**
 Rearrange Array Elements so as to form two number such that their sum is maximum. Return these two numbers. You can assume that all array elements are in the range [0, 9]. The number of digits in both the numbers cannot differ by more than 1. You're not allowed to use any sorting function that Python provides and the expected time complexity is O(nlog(n)).
 for e.g. [1, 2, 3, 4, 5]
 The expected answer would be [531, 42]. Another expected answer can be [542, 31]. In scenarios such as these when there are more than one possible answers, return any one.
 
-Problem4:
+**Problem4:**
 Dutch National Flag Problem
 Given an input array consisting on only 0, 1, and 2, sort the array in a single traversal. You're not allowed to use any sorting function that Python provides.
 Note: O(n) does not necessarily mean single-traversal. For e.g. if you traverse the array twice, that would still be an O(n) solution but it will not count as single traversal.
 
-Problem 5:
+**Problem 5:**
 Building a Trie in Python
 Before we start let us reiterate the key components of a Trie or Prefix Tree. A trie is a tree-like data structure that stores a dynamic set of strings. Tries are commonly used to facilitate operations like predictive text or autocomplete features on mobile phones or web search.
 Before we move into the autocomplete function we need to create a working trie for storing strings. We will create two classes:
@@ -104,7 +105,7 @@ Before we move into the autocomplete function we need to create a working trie f
 •	finding the node which represents a prefix.
 
 
-**Project 4:**
+****Project 4:****
 In this project, you will build a route-planning algorithm like the one used in Google Maps to calculate the shortest path between two points on a map.
 In this project you will use A* search to implement a "Google-maps" style route planning algorithm.
 These Map objects have two properties you will want to use to implement A* search: intersections and roads
