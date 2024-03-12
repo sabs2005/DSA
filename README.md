@@ -9,15 +9,18 @@ All task files have details of the tasks within the file itself.
 ****Project 2:****
 
 **Problem1:**
+
 Fle recursion
 For this problem, the goal is to write code for finding all files under a directory (and all directories beneath it) that end with ".c"
 
 **Problem2:**
+
 Active directory:
 In Windows Active Directory, a group can consist of user(s) and group(s) themselves. We can construct this hierarchy as such. Where User is represented by str representing their ids.
 Write a function that provides an efficient look up of whether the user is in a group.
 
 **Problem 3:**
+
 Blockchain:
 Use your knowledge of linked lists and hashing to create a blockchain implementation.
 We can break the blockchain down into three main parts.
@@ -27,6 +30,7 @@ The next main component is the block on the blockchain:
 Finally you need to link all of this together in a block chain, which you will be doing by implementing it in a linked list. All of this will help you build up to a simple but full blockchain implementation!
 
 **Problem 4:**
+
 Huffman coding:
 Assume that we have a string message AAAAAAABBBCCCCCCCDDEEEEEE comprising of 25 characters to be encoded. The string message can be an unsorted one as well. We will have two phases in encoding - building the Huffman tree (a binary tree), and generating the encoded data.
 Phase I - Build the Huffman Tree
@@ -64,6 +68,7 @@ Once we have the encoded data, and the (pointer to the root of) Huffman tree, we
 4.	Repeat steps #2 and #3 until the encoded data is completely traversed.
 
 **Problem5 :**
+
 Your task for this problem is to fill out the union and intersection functions. The union of two sets A and B is the set of elements which are in A, in B, or in both A and B. For example, the union of A = [1, 2] and B = [3, 4] is [1, 2, 3, 4].
 The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both sets A and B. For example, the intersection of A = [1, 2, 3] and B = [2, 3, 4] is [2, 3].
 You will take in two linked lists and return a linked list that is composed of either the union or intersection, respectively. Once you have completed the problem you will create your own test cases and perform your own run time analysis on the code.
@@ -72,12 +77,14 @@ You will take in two linked lists and return a linked list that is composed of e
 ****Project3:****
 
 **Problem1:**
+
 Find the square root of the integer without using any Python library. You have to find the floor value of the square root.
 For example if the given number is 16, then the answer would be 4.
 If the given number is 27, the answer would be 5 because sqrt(5) = 5.196 whose floor value is 5.
 The expected time complexity is O(log(n))
 
 **Problem2:**
+
 You are given a sorted array which is rotated at some random pivot point.
 Example: [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]
 You are given a target value to search. If found in the array return its index, otherwise return -1.
@@ -86,16 +93,19 @@ Example:
 Input: nums = [4,5,6,7,0,1,2], target = 0, Output: 4
 
 **Problem3:**
+
 Rearrange Array Elements so as to form two number such that their sum is maximum. Return these two numbers. You can assume that all array elements are in the range [0, 9]. The number of digits in both the numbers cannot differ by more than 1. You're not allowed to use any sorting function that Python provides and the expected time complexity is O(nlog(n)).
 for e.g. [1, 2, 3, 4, 5]
 The expected answer would be [531, 42]. Another expected answer can be [542, 31]. In scenarios such as these when there are more than one possible answers, return any one.
 
 **Problem4:**
+
 Dutch National Flag Problem
 Given an input array consisting on only 0, 1, and 2, sort the array in a single traversal. You're not allowed to use any sorting function that Python provides.
 Note: O(n) does not necessarily mean single-traversal. For e.g. if you traverse the array twice, that would still be an O(n) solution but it will not count as single traversal.
 
 **Problem 5:**
+
 Building a Trie in Python
 Before we start let us reiterate the key components of a Trie or Prefix Tree. A trie is a tree-like data structure that stores a dynamic set of strings. Tries are commonly used to facilitate operations like predictive text or autocomplete features on mobile phones or web search.
 Before we move into the autocomplete function we need to create a working trie for storing strings. We will create two classes:
@@ -106,6 +116,7 @@ Before we move into the autocomplete function we need to create a working trie f
 
 
 ****Project 4:****
+
 In this project, you will build a route-planning algorithm like the one used in Google Maps to calculate the shortest path between two points on a map.
 In this project you will use A* search to implement a "Google-maps" style route planning algorithm.
 These Map objects have two properties you will want to use to implement A* search: intersections and roads
