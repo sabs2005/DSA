@@ -117,17 +117,17 @@
 
 ****Project 4:****
 
-  In this project, you will build a route-planning algorithm like the one used in Google Maps to calculate the shortest path between two points on a map.
-  In this project you will use A* search to implement a "Google-maps" style route planning algorithm.
-  These Map objects have two properties you will want to use to implement A* search: intersections and roads
-  Intersections
-  The intersections are represented as a dictionary.
-  The roads property is a list where, if i is an intersection, roads[i] contains a list of the intersections that intersection i connects to.
-  The map is a network of roads which spans 40 different intersections (labeled 0 through 39).
-  •	start - The "start" node for the search algorithm.
-  •	goal - The "goal" node.
-  •	path - An array of integers which corresponds to a valid sequence of intersection visits on the map.
-  •	The algorithm you write will be responsible for generating a path . In fact, when called with the same map, start and goal, as above your algorithm should produce the path [5, 16, 37, 12, 34]
-  •	> shortest_path(map_40, 5, 34)
-  •	[5, 16, 37, 12, 34]
-  use an admissible heuristic to direct search efforts towards the goal
+    In this project, you will build a route-planning algorithm like the one used in Google Maps to calculate the shortest path between two points on a map.
+    In this project you will use A* search to implement a "Google-maps" style route planning algorithm.
+    These Map objects have two properties you will want to use to implement A* search: intersections and roads
+    Intersections
+    The intersections are represented as a dictionary.
+    The roads property is a list where, if i is an intersection, roads[i] contains a list of the intersections that intersection i connects to.
+    The map is a network of roads which spans 40 different intersections (labeled 0 through 39).
+    •	start - The "start" node for the search algorithm.
+    •	goal - The "goal" node.
+    •	path - An array of integers which corresponds to a valid sequence of intersection visits on the map.
+    •	The algorithm you write will be responsible for generating a path . In fact, when called with the same map, start and goal, as above your algorithm should produce the path [5, 16, 37, 12, 34]
+    •	> shortest_path(map_40, 5, 34)
+    •	[5, 16, 37, 12, 34]
+    use an admissible heuristic to direct search efforts towards the goal
