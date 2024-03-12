@@ -1,22 +1,23 @@
 **Data Structures and Algorithms**
 (Udacity nanodegree course)
 
-**Project 1:**
+****Project 1:****
+
 The tasks in this project test Python knowledge. 
 All task files have details of the tasks within the file itself.
 
-**Project 2:**
+****Project 2:****
 
-Problem1:
+**Problem1:**
 Fle recursion
 For this problem, the goal is to write code for finding all files under a directory (and all directories beneath it) that end with ".c"
 
-Problem2: 
+**Problem2: **
 Active directory:
 In Windows Active Directory, a group can consist of user(s) and group(s) themselves. We can construct this hierarchy as such. Where User is represented by str representing their ids.
 Write a function that provides an efficient look up of whether the user is in a group.
 
-Problem 3:
+**Problem 3:**
 Blockchain:
 Use your knowledge of linked lists and hashing to create a blockchain implementation.
 We can break the blockchain down into three main parts.
@@ -25,7 +26,7 @@ We do this for the information we want to store in the blockchain such as transa
 The next main component is the block on the blockchain:
 Finally you need to link all of this together in a block chain, which you will be doing by implementing it in a linked list. All of this will help you build up to a simple but full blockchain implementation!
 
-Problem 4:
+**Problem 4:**
 Huffman coding:
 Assume that we have a string message AAAAAAABBBCCCCCCCDDEEEEEE comprising of 25 characters to be encoded. The string message can be an unsorted one as well. We will have two phases in encoding - building the Huffman tree (a binary tree), and generating the encoded data.
 Phase I - Build the Huffman Tree
@@ -62,12 +63,12 @@ Once we have the encoded data, and the (pointer to the root of) Huffman tree, we
 •	If a leaf node is encountered, append the (alphabetical) character of the leaf node to the decoded string.
 4.	Repeat steps #2 and #3 until the encoded data is completely traversed.
 
-Problem5 :
+**Problem5 :**
 Your task for this problem is to fill out the union and intersection functions. The union of two sets A and B is the set of elements which are in A, in B, or in both A and B. For example, the union of A = [1, 2] and B = [3, 4] is [1, 2, 3, 4].
 The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both sets A and B. For example, the intersection of A = [1, 2, 3] and B = [2, 3, 4] is [2, 3].
 You will take in two linked lists and return a linked list that is composed of either the union or intersection, respectively. Once you have completed the problem you will create your own test cases and perform your own run time analysis on the code.
 
-**Project3:**
+****Project3:****
 
 Problem1:
 Find the square root of the integer without using any Python library. You have to find the floor value of the square root.
